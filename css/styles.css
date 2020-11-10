@@ -1344,6 +1344,37 @@ input[type='checkbox'] {
   color: rgba(255,255,255,0.5);
 }
 
+/************************/
+/*     11. Partners     */
+/************************/
+.basic-5 {
+	padding-top: 6.5rem;
+	padding-bottom: 6.75rem;
+  background: var(--super-dark-bg);
+}
+
+.basic-5 .text-container {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.basic-5 h2 {
+	margin-top: 3.5rem;
+}
+
+.basic-5 .p-large {
+	margin-bottom: 1.75rem;
+}
+
+.basic-5 .btn-solid-lg {
+	margin-bottom: 0;
+}
+
+.basic-5 .release-notes{
+  position: relative;
+  left: 10px;
+}
+
 /**************************/
 /*     12. Statistics     */
 /**************************/
@@ -1960,15 +1991,31 @@ a:hover.back-to-top {
 
 
 	/* Download */
-	.basic-4 {
+  .basic-4 {
 		padding-top: 6.75rem;
 	}
 
-	.basic-4 .text-container {
+  .basic-5 {
+		padding-top: 6.75rem;
+	}
+
+  .basic-4 .text-container {
 		margin-top: 2rem;
 		margin-bottom: 0;
 		text-align: left;
 	}
+
+  .basic-5 .text-container {
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: left;
+  }
+
+  .basic-5 .text-container h2 {
+		margin-top: 0;
+  }
+
+
 	/* end of download */
 
 
@@ -2124,12 +2171,24 @@ a:hover.back-to-top {
 
 
 	/* Download */
-	.basic-4 .text-container {
-		margin-top: 5rem;
+  .basic-4 .text-container {
+		margin-top: 3rem;
 	}
 
-	.basic-4 .image-container {
+  .basic-5 .text-container {
+		margin-top: 0rem;
+  }
+  
+  .basic-5 .text-container h2 {
+		margin-top: 2rem;
+	}
+
+  .basic-4 .image-container {
 		margin-left: 3rem;
+  }
+  
+  .basic-5 .image-container {
+		margin-right: 3rem;
 	}
 	/* end of download */
 
