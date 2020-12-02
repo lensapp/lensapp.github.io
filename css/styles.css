@@ -1057,8 +1057,8 @@ input[type='checkbox'] {
 /*********************/
 .basic-1 {
 	padding-top: 6.375rem;
-	padding-bottom: 6.875rem;
-	background: var(--dark-bg);
+  padding-bottom: 6.875rem;
+  background: var(--super-dark-bg);
 }
 
 .basic-1 h2 {
@@ -1345,12 +1345,12 @@ input[type='checkbox'] {
 }
 
 /************************/
-/*     11. Partners     */
+/*     11. Extensions   */
 /************************/
 .basic-5 {
 	padding-top: 6.5rem;
 	padding-bottom: 6.75rem;
-  background: var(--super-dark-bg);
+	background: var(--dark-bg);
 }
 
 .basic-5 .text-container {
@@ -1373,6 +1373,15 @@ input[type='checkbox'] {
 .basic-5 .release-notes{
   position: relative;
   left: 10px;
+}
+
+.basic-5 .ext-learn-more{
+  margin-left: 15px;
+  color: var(--primary-color);
+}
+
+.basic-5 .ext-learn-more:hover{
+  color: var(--primary-color-lighten);
 }
 
 /**************************/
